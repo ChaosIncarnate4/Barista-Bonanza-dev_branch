@@ -1,0 +1,109 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1712095067
+CoffeeMaking.gd::GDScript::-1::1711919672::0::1::::<>Node2D<>::
+CoffeeMaking.tscn::PackedScene::4208709664420298267::1712095062::0::1::::<><>::uid://dj1kl61d4ldhw::::res://Assets/CoffeeMaking/CoffeeMakingBackground.png<>res://Levels/CoffeeMaking.gd<>uid://b8chosl2ue5s3::::res://Assets/CoffeeMaking/EspressoMachine.png<>uid://bqhbhj2d5lnj1::::res://Assets/Buttons/NewMenu.png<>res://Levels/Button.gd
+icon.svg::CompressedTexture2D::7675732505538084129::1711851409::1711852874::1::::<><>::
+PauseMenu.gd::GDScript::-1::1711933445::0::1::::<>Control<>::
+::res://Assets/::1711851438
+::res://Assets/Buttons/::1711851431
+ContinueSaveButton.png::CompressedTexture2D::4093824841963818321::1711851430::1711851430::1::::<><>::
+Menu.png::CompressedTexture2D::603509323540841218::1711851430::1711851430::1::::<><>::
+MenuIconRemovedBackground.png::CompressedTexture2D::7552780240638117950::1711851430::1711851430::1::::<><>::
+NewGame.png::CompressedTexture2D::5722270488191758352::1711851430::1711851430::1::::<><>::
+NewGameButton.png::CompressedTexture2D::8830975634732724000::1711851430::1711851430::1::::<><>::
+NewMenu.png::CompressedTexture2D::3523966558326852952::1711851430::1711851430::1::::<><>::
+ResetCoffee.png::CompressedTexture2D::3197346210089177163::1711851430::1711851430::1::::<><>::
+ResetCoffeeButton.png::CompressedTexture2D::6662077938790489549::1711851431::1711851431::1::::<><>::
+ServeCoffeeButton.png::CompressedTexture2D::1097739569849704638::1711851431::1711851431::1::::<><>::
+::res://Assets/CoffeeMaking/::1711851431
+BBScoreBoard.png::CompressedTexture2D::1016631222725104775::1711851431::1711851431::1::::<><>::
+CoffeeMakingBackground.png::CompressedTexture2D::7845263947652032664::1711851431::1711851431::1::::<><>::
+EspressoMachine.png::CompressedTexture2D::4707232262987149944::1711851431::1711851431::1::::<><>::
+EspressoMachineRemovedBackground.png::CompressedTexture2D::7316161907905980363::1711851431::1711851431::1::::<><>::
+ResetCoffee.png::CompressedTexture2D::2280340149324731013::1711851431::1711851431::1::::<><>::
+::res://Assets/CoffeeShop/::1711851432
+3DCoffeeShop.png::CompressedTexture2D::5814844695266490290::1711851431::1711851431::1::::<><>::
+Counter.jpg::CompressedTexture2D::994566509507134788::1711851432::1711851432::1::::<><>::
+ShopCounter.jpg::CompressedTexture2D::4591320619597588648::1711851432::1711851432::1::::<><>::
+::res://Assets/DownloadedAssets/::1711851436
+License.txt::TextFile::-1::1711851432::0::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/::1711851435
+::res://Assets/DownloadedAssets/Clouds/Clouds 1/::1711851432
+1.png::CompressedTexture2D::8284255361652415913::1711851432::1711851432::1::::<><>::
+2.png::CompressedTexture2D::2556902903043688918::1711851432::1711851432::1::::<><>::
+3.png::CompressedTexture2D::3545949788948193901::1711851432::1711851432::1::::<><>::
+4.png::CompressedTexture2D::982789157082189886::1711851432::1711851432::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 2/::1711851433
+1.png::CompressedTexture2D::3743439418179533670::1711851432::1711851432::1::::<><>::
+2.png::CompressedTexture2D::1852011230627591033::1711851432::1711851432::1::::<><>::
+3.png::CompressedTexture2D::8967689782607376817::1711851432::1711851433::1::::<><>::
+4.png::CompressedTexture2D::2260023470217261960::1711851433::1711851433::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 3/::1711851433
+1.png::CompressedTexture2D::3973560027235651588::1711851433::1711851433::1::::<><>::
+2.png::CompressedTexture2D::7934675089068560659::1711851433::1711851433::1::::<><>::
+3.png::CompressedTexture2D::579381358856223077::1711851433::1711851433::1::::<><>::
+4.png::CompressedTexture2D::7640836338046414485::1711851433::1711851433::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 4/::1711851434
+1.png::CompressedTexture2D::4234064773318447020::1711851433::1711851433::1::::<><>::
+2.png::CompressedTexture2D::3236728870053604742::1711851433::1711851434::1::::<><>::
+3.png::CompressedTexture2D::7357744845524892757::1711851434::1711851434::1::::<><>::
+4.png::CompressedTexture2D::7963806825760267599::1711851434::1711851434::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 5/::1711851434
+1.png::CompressedTexture2D::6608062342520088986::1711851434::1711851434::1::::<><>::
+2.png::CompressedTexture2D::3554785522769964238::1711851434::1711851434::1::::<><>::
+3.png::CompressedTexture2D::8579162147580001688::1711851434::1711851434::1::::<><>::
+4.png::CompressedTexture2D::1264110373609834351::1711851434::1711851434::1::::<><>::
+5.png::CompressedTexture2D::8196982840936014689::1711851434::1711851434::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 6/::1711851435
+1.png::CompressedTexture2D::4976679558733465739::1711851434::1711851434::1::::<><>::
+2.png::CompressedTexture2D::8606205638783248808::1711851434::1711851434::1::::<><>::
+3.png::CompressedTexture2D::2870190865506763946::1711851435::1711851435::1::::<><>::
+4.png::CompressedTexture2D::5215431814625555187::1711851435::1711851435::1::::<><>::
+5.png::CompressedTexture2D::6888246483832078071::1711851435::1711851435::1::::<><>::
+6.png::CompressedTexture2D::2542489093660150273::1711851435::1711851435::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 7/::1711851435
+1.png::CompressedTexture2D::6219850766153103849::1711851435::1711851435::1::::<><>::
+2.png::CompressedTexture2D::4293269255598211818::1711851435::1711851435::1::::<><>::
+3.png::CompressedTexture2D::4756016089979341863::1711851435::1711851435::1::::<><>::
+4.png::CompressedTexture2D::8040126768322735351::1711851435::1711851435::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 8/::1711851436
+1.png::CompressedTexture2D::5213482889771841598::1711851435::1711851435::1::::<><>::
+2.png::CompressedTexture2D::1913646744776031375::1711851435::1711851435::1::::<><>::
+3.png::CompressedTexture2D::1346612548197512121::1711851435::1711851435::1::::<><>::
+4.png::CompressedTexture2D::7635518773656327856::1711851435::1711851435::1::::<><>::
+5.png::CompressedTexture2D::6781038827571724643::1711851435::1711851436::1::::<><>::
+6.png::CompressedTexture2D::6747203913320186754::1711851436::1711851436::1::::<><>::
+::res://Assets/DownloadedAssets/PSD/::1711851436
+::res://Assets/Extras/::1712095175
+BothButton.png::CompressedTexture2D::4403211329471356704::1711851436::1711851436::1::::<><>::
+Chemex.jpg::CompressedTexture2D::3075159444448986606::1711851436::1711851436::1::::<><>::
+ChemexFront.jpg::CompressedTexture2D::8091755815854384141::1711851436::1711851436::1::::<><>::
+Continue Save Tavern.png::CompressedTexture2D::8794849310829916648::1711851436::1711851437::1::::<><>::
+ContinueSave.png::CompressedTexture2D::514629604486750466::1711851437::1711851437::1::::<><>::
+Counter.jpg::CompressedTexture2D::929482792817311797::1711851437::1711851437::1::::<><>::
+EmptyTavernButton.png::CompressedTexture2D::8568445774610762781::1711851437::1711851437::1::::<><>::
+FrontChemex.jpg::CompressedTexture2D::7875952343351494025::1711851437::1711851437::1::::<><>::
+FrontChemex.png::CompressedTexture2D::8245087409925420403::1711851437::1711851437::1::::<><>::
+heart.png::CompressedTexture2D::2112648906662089055::1712095175::1712095176::1::::<><>::
+KettleWithTray.png::CompressedTexture2D::2669872030718073559::1711851437::1711851437::1::::<><>::
+lifebar_16x16.png::CompressedTexture2D::721924808997312986::1712095147::1712095150::1::::<><>::
+NewGameNoBackground.png::CompressedTexture2D::3106772429879569815::1711851437::1711851437::1::::<><>::
+NewGameTavern.png::CompressedTexture2D::8656851387280361350::1711851437::1711851437::1::::<><>::
+NoFilterChemex.png::CompressedTexture2D::5877079879550450435::1711851437::1711851437::1::::<><>::
+NoFilterKettle.png::CompressedTexture2D::963762487058048756::1711851437::1711851438::1::::<><>::
+Shop.jpg::CompressedTexture2D::6138187284386318356::1711851438::1711851438::1::::<><>::
+::res://Assets/PourOver/::1711851438
+Chemex.png::CompressedTexture2D::509980736917085678::1711851438::1711851438::1::::<><>::
+ChemexPourOver.png::CompressedTexture2D::6327358151600780631::1711851438::1711851438::1::::<><>::
+Kettle.png::CompressedTexture2D::1950082002432261695::1711851438::1711851438::1::::<><>::
+::res://Levels/::1712095062
+Button.gd::GDScript::-1::1711919161::0::1::::<>Button<>::
+CoffeeMaking.gd::GDScript::-1::1711919709::0::1::::<>Node2D<>::
+GameOver.gd::GDScript::-1::1712031248::0::1::::<>Control<>::
+GameOver.tscn::PackedScene::2522894056586109978::1712095062::0::1::::<><>::res://Levels/GameOver.gd
+HealthBar.gd::GDScript::-1::1712095062::0::1::::<>ColorRect<>::
+Level1.tscn::PackedScene::6734753654551886564::1712095062::0::1::::<><>::uid://of1mocbcy37u::::res://Assets/CoffeeShop/Counter.jpg<>uid://21vth6csf5lj::::res://Assets/PourOver/Kettle.png<>uid://hjbkqkubuyoc::::res://Assets/PourOver/Chemex.png<>uid://iulyfg76hwhu::::res://Assets/Buttons/Menu.png<>res://Levels/Button.gd<>uid://dciaeac2ttksx::::res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png<>res://Levels/StartButton.gd<>res://Levels/HealthBar.gd<>uid://bb7dxxfy1rlpi::::res://Levels/GameOver.tscn
+StartButton.gd::GDScript::-1::1711851438::0::1::::<>Button<>::
+::res://TitleScreen/::1712095062
+NewGame.gd::GDScript::-1::1712095062::0::1::::<>Button<>::
+TitleScreen.tscn::PackedScene::6944802434241600698::1712095062::0::1::::<><>::res://TitleScreen/NewGame.gd<>uid://dx2144r4usbdg::::res://Assets/Buttons/NewGameButton.png<>uid://c1e826puusovi::::res://Assets/DownloadedAssets/Clouds/Clouds 5/1.png<>uid://bylcxx1e0u3i8::::res://Assets/Buttons/ContinueSaveButton.png<>uid://co30v32vs7pla::::res://Assets/CoffeeShop/3DCoffeeShop.png<>uid://salyiohohg76::::res://Assets/DownloadedAssets/Clouds/Clouds 5/4.png<>uid://do1xdy6onobp6::::res://Assets/DownloadedAssets/Clouds/Clouds 5/5.png

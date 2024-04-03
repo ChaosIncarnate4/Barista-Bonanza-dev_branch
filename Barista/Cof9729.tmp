@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://b07y3li7qdtyh"]
+
+[ext_resource type="Texture2D" uid="uid://dj1kl61d4ldhw" path="res://Assets/CoffeeMaking/CoffeeMakingBackground.png" id="1_nggtb"]
+[ext_resource type="Script" path="res://CoffeeMaking.gd" id="1_s5xpl"]
+[ext_resource type="Texture2D" uid="uid://b8chosl2ue5s3" path="res://Assets/CoffeeMaking/EspressoMachine.png" id="2_plaut"]
+[ext_resource type="Texture2D" uid="uid://dfuvgmjk3skcc" path="res://Assets/Buttons/MenuIconRemovedBackground.png" id="3_fgk2l"]
+[ext_resource type="Script" path="res://Levels/Button.gd" id="4_rrwop"]
+
+[node name="CoffeeMaking" type="Node2D"]
+script = ExtResource("1_s5xpl")
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="TileMap"]
+
+[node name="CoffeeMakingBackground" type="Sprite2D" parent="TileMap/ParallaxBackground"]
+position = Vector2(575, 324)
+scale = Vector2(1.81705, 1.74074)
+texture = ExtResource("1_nggtb")
+metadata/_edit_lock_ = true
+
+[node name="EspressoMachine" type="Sprite2D" parent="."]
+position = Vector2(554, 413)
+scale = Vector2(2.13616, 2.18527)
+texture = ExtResource("2_plaut")
+
+[node name="Menu" type="Button" parent="."]
+offset_left = -11.0
+offset_top = -1.0
+offset_right = 609.0
+offset_bottom = 415.0
+scale = Vector2(0.179657, 0.195093)
+icon = ExtResource("3_fgk2l")
+flat = true
+expand_icon = true
+script = ExtResource("4_rrwop")
+
+[connection signal="pressed" from="Menu" to="Menu" method="_on_pressed"]

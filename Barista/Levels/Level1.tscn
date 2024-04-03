@@ -1,0 +1,113 @@
+[gd_scene load_steps=11 format=3 uid="uid://c27mn5q0qhqns"]
+
+[ext_resource type="Texture2D" uid="uid://of1mocbcy37u" path="res://Assets/CoffeeShop/Counter.jpg" id="1_c56c4"]
+[ext_resource type="Texture2D" uid="uid://21vth6csf5lj" path="res://Assets/PourOver/Kettle.png" id="2_vb5d8"]
+[ext_resource type="Texture2D" uid="uid://hjbkqkubuyoc" path="res://Assets/PourOver/Chemex.png" id="3_11ih4"]
+[ext_resource type="Texture2D" uid="uid://iulyfg76hwhu" path="res://Assets/Buttons/Menu.png" id="4_56jca"]
+[ext_resource type="Script" path="res://Levels/Button.gd" id="5_u8dnv"]
+[ext_resource type="Texture2D" uid="uid://dciaeac2ttksx" path="res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png" id="6_mmf6m"]
+[ext_resource type="Script" path="res://Levels/StartButton.gd" id="7_3yhaj"]
+[ext_resource type="Script" path="res://Levels/HealthBar.gd" id="8_ig2p1"]
+[ext_resource type="PackedScene" uid="uid://bb7dxxfy1rlpi" path="res://Levels/GameOver.tscn" id="9_8qqcv"]
+[ext_resource type="Texture2D" uid="uid://5dnav1el7gih" path="res://Assets/Extras/heart.png" id="10_1peox"]
+
+[node name="Level_One" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="TileMap"]
+
+[node name="AnotherCounter" type="Sprite2D" parent="."]
+position = Vector2(573, 295)
+scale = Vector2(1.125, 1.08594)
+texture = ExtResource("1_c56c4")
+metadata/_edit_lock_ = true
+
+[node name="Chemex" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(699, 426)
+scale = Vector2(0.205717, 0.175606)
+texture = ExtResource("3_11ih4")
+metadata/_edit_lock_ = true
+
+[node name="Kettle" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(948, 439)
+scale = Vector2(0.578347, 0.519409)
+texture = ExtResource("2_vb5d8")
+metadata/_edit_lock_ = true
+
+[node name="Menu" type="Button" parent="."]
+offset_left = -11.0
+offset_top = -1.0
+offset_right = 1286.0
+offset_bottom = 737.0
+scale = Vector2(0.179657, 0.195093)
+icon = ExtResource("4_56jca")
+flat = true
+expand_icon = true
+script = ExtResource("5_u8dnv")
+
+[node name="StartButton" type="Button" parent="."]
+offset_left = 414.0
+offset_top = 241.0
+offset_right = 723.0
+offset_bottom = 521.0
+icon = ExtResource("6_mmf6m")
+flat = true
+expand_icon = true
+script = ExtResource("7_3yhaj")
+metadata/_edit_lock_ = true
+
+[node name="HealthBar" type="ColorRect" parent="."]
+offset_left = 973.0
+offset_top = 21.0
+offset_right = 1125.0
+offset_bottom = 76.0
+color = Color(0, 0.698039, 0.709804, 0)
+script = ExtResource("8_ig2p1")
+
+[node name="Timer" type="Timer" parent="HealthBar"]
+process_callback = 0
+wait_time = 3.0
+
+[node name="Heart" type="TextureRect" parent="HealthBar"]
+layout_mode = 0
+offset_left = 69.9999
+offset_top = -17.0
+offset_right = 1094.0
+offset_bottom = 1007.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_1peox")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Heart1" type="TextureRect" parent="HealthBar"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = -17.0
+offset_right = 1049.0
+offset_bottom = 1007.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_1peox")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Heart2" type="TextureRect" parent="HealthBar"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -17.0
+offset_right = 1004.0
+offset_bottom = 1007.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_1peox")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Game Over Screen" parent="." instance=ExtResource("9_8qqcv")]
+
+[connection signal="pressed" from="Menu" to="Menu" method="_on_pressed"]
+[connection signal="pressed" from="StartButton" to="StartButton" method="_on_pressed"]
+[connection signal="gameOver" from="HealthBar" to="Game Over Screen" method="_on_health_bar_game_over"]
+[connection signal="timeout" from="HealthBar/Timer" to="HealthBar" method="_on_timer_timeout"]

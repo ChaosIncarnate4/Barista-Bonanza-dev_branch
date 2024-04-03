@@ -1,0 +1,101 @@
+[gd_scene load_steps=8 format=3 uid="uid://c57d477i33wfy"]
+
+[ext_resource type="Script" path="res://TitleScreen/NewGame.gd" id="1_046cf"]
+[ext_resource type="Texture2D" uid="uid://dx2144r4usbdg" path="res://Assets/Buttons/NewGameButton.png" id="1_cdi5o"]
+[ext_resource type="Texture2D" uid="uid://c1e826puusovi" path="res://Assets/DownloadedAssets/Clouds/Clouds 5/1.png" id="2_ery6s"]
+[ext_resource type="Texture2D" uid="uid://bylcxx1e0u3i8" path="res://Assets/Buttons/ContinueSaveButton.png" id="3_b3xnn"]
+[ext_resource type="Texture2D" uid="uid://co30v32vs7pla" path="res://Assets/CoffeeShop/3DCoffeeShop.png" id="3_gvx38"]
+[ext_resource type="Texture2D" uid="uid://salyiohohg76" path="res://Assets/DownloadedAssets/Clouds/Clouds 5/4.png" id="4_x87a7"]
+[ext_resource type="Texture2D" uid="uid://do1xdy6onobp6" path="res://Assets/DownloadedAssets/Clouds/Clouds 5/5.png" id="7_pu4ka"]
+
+[node name="TitleScreen" type="Node2D"]
+position = Vector2(2, 3)
+
+[node name="Buttons" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 30.0
+offset_top = 12.0
+offset_right = 485.0
+offset_bottom = 555.0
+metadata/_edit_lock_ = true
+
+[node name="NewGame" type="Button" parent="Buttons"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 153.0
+offset_right = 144.0
+offset_bottom = 349.0
+scale = Vector2(1.77419, 1.55458)
+icon = ExtResource("1_cdi5o")
+flat = true
+script = ExtResource("1_046cf")
+metadata/_edit_lock_ = true
+
+[node name="Button" type="Button" parent="Buttons"]
+layout_mode = 0
+offset_left = 208.0
+offset_top = 136.0
+offset_right = 325.0
+offset_bottom = 352.0
+scale = Vector2(1.80649, 1.57094)
+icon = ExtResource("3_b3xnn")
+flat = true
+metadata/_edit_lock_ = true
+
+[node name="Sky" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(587, 337)
+scale = Vector2(2.125, 2.22222)
+texture = ExtResource("2_ery6s")
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="CoffeeShop" type="Sprite2D" parent="."]
+position = Vector2(779, 319)
+scale = Vector2(0.716797, 0.678711)
+texture = ExtResource("3_gvx38")
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="Cloud" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(1049, -135)
+rotation = -8.49277
+scale = Vector2(0.97914, 1)
+texture = ExtResource("4_x87a7")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="Cloud1" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(392, 190)
+rotation = 3.14192
+scale = Vector2(1.38152, 1.19978)
+texture = ExtResource("4_x87a7")
+metadata/_edit_lock_ = true
+
+[node name="Cloud2" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(138, 365)
+rotation = -1.55548
+texture = ExtResource("4_x87a7")
+flip_v = true
+metadata/_edit_lock_ = true
+
+[node name="Cloud3" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(581, 366)
+rotation = -0.0107813
+scale = Vector2(2.58386, 2.1523)
+texture = ExtResource("4_x87a7")
+flip_h = true
+metadata/_edit_lock_ = true
+
+[node name="5" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(854, 50)
+texture = ExtResource("7_pu4ka")
+metadata/_edit_lock_ = true
+
+[connection signal="pressed" from="Buttons/NewGame" to="Buttons/NewGame" method="_on_pressed"]
