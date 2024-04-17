@@ -1,7 +1,6 @@
-res://Levels/Level1.tscn
+res://CoffeeMaking.tscn
 res://Levels/HealthBar.gd
 res://TitleScreen/NewGame.gd
-res://Levels/Life.gd
-res://CoffeeMaking.tscn
 res://TitleScreen/TitleScreen.tscn
+res://Levels/Level1.tscn
 res://Levels/GameOver.tscn
